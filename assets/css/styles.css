@@ -307,6 +307,13 @@ img {
 .skills__fi {
   width: 90%;
 }
+.skills__node {
+  width: 70%;
+}
+.skills__mongo {
+  width: 80%;
+}
+
 .skills__img {
   border-radius: 0.5rem;
 }

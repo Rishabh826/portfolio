@@ -496,3 +496,37 @@ img {
     width: 450px;
   }
 }
+/* Add this to your existing CSS file, e.g., assets/css/styles.css */
+
+/* Resume Section */
+.resume {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.resume__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.resume__text {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.resume__button {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.resume__button:hover {
+  background-color: #0056b3;
+}
